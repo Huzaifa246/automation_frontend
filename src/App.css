@@ -51,6 +51,7 @@
 .MainContainer {
   display: flex;
   flex: 1; /* Takes up remaining space after header */
+  overflow: auto;
 }
 
 .Sidebar {

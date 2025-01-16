@@ -41,7 +41,7 @@ const Sidebar = ({ className, onFileSelect }: { onFileSelect: any; className: st
   console.log("Here are files from sidebar:", articleBatches);
 
   return (
-    <div className={`flex flex-col bg-gray-600 w-52 h-screen ${className}`}>
+    <div className={`flex flex-col bg-gray-600 w-52 h-50vh overflow-y-scroll ${className}`}>
       <h2 className="text-lg font-bold mb-4">Articles</h2>
       <ul className="space-y-2">
       {articleBatches.length > 0 ? (
